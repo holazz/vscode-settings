@@ -11,12 +11,12 @@
   "editor.inlineSuggest.enabled": true, // -
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.suggestSelection": "first",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.eslint": true,
     "source.organizeImports": false
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "workbench.iconTheme": "file-icons",
   "workbench.fontAliasing": "antialiased",
@@ -33,6 +33,7 @@
   "explorer.experimental.fileNesting.expand": false,
 
   "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
 
@@ -44,6 +45,8 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.persistentSessionReviveProcess": "never",
+
+  "scm.defaultViewMode": "tree",
 
   "git.autofetch": true,
   "git.enableSmartCommit": true, // -
@@ -65,7 +68,7 @@
   "typescript.updateImportsOnFileMove.enabled": "prompt",
   "javascript.updateImportsOnFileMove.enabled": "prompt",
 
-  "prettier.enable": false,
+  "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
 
@@ -136,8 +139,5 @@
       "remote": false,
       "stash": true
     }
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }
