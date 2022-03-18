@@ -16,7 +16,6 @@
     "source.fixAll.eslint": true,
     "source.organizeImports": false
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "workbench.iconTheme": "file-icons",
   "workbench.fontAliasing": "antialiased",
@@ -69,11 +68,24 @@
   "typescript.updateImportsOnFileMove.enabled": "prompt",
   "javascript.updateImportsOnFileMove.enabled": "prompt",
 
+  "prettier.enable": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
 
   "eslint.quiet": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
 
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
