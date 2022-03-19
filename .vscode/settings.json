@@ -9,7 +9,6 @@
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.inlineSuggest.enabled": true, // -
-  "editor.multiCursorModifier": "ctrlCmd",
   "editor.suggestSelection": "first",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
@@ -73,6 +72,9 @@
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
 
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
   "eslint.quiet": true,
   "eslint.validate": [
     "javascript",
