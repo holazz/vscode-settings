@@ -23,10 +23,11 @@
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.tree.indent": 20,
+  "workbench.tree.expandMode": "doubleClick",
   "workbench.list.smoothScrolling": true,
 
   "explorer.confirmDelete": false,
-  "explorer.autoReveal": "focusNoScroll",
+  "explorer.autoReveal": false,
   "explorer.experimental.fileNesting.enabled": true,
   "explorer.experimental.fileNesting.expand": false,
 
@@ -61,11 +62,14 @@
     "**/package-lock.json": true,
     "**/pnpm-lock.yaml": true,
     "**/yarn.lock": true,
-    "**/dist/**": true
+    "**/dist/**": true,
+    "**/out/**": true,
   },
-
-  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  
+  "javascript.preferences.quoteStyle": "single",
   "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
 
   "prettier.enable": false,
   "prettier.semi": false,
@@ -91,15 +95,6 @@
 
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
-  "cSpell.ignorePaths": [
-    "package.json",
-    "package-lock.json",
-    "node_modules",
-    "vscode-extension",
-    ".git/objects",
-    ".vscode",
-    ".vscode-insiders"
-  ],
 
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
   "errorLens.excludeBySource": ["cSpell", "eslint"],
