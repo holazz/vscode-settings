@@ -5,8 +5,9 @@
   "editor.fontFamily": "Monaco",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
-  "editor.find.addExtraSpaceOnTop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.smoothScrolling": true,
+  "editor.find.addExtraSpaceOnTop": false,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.inlineSuggest.enabled": true, // -
   "editor.suggestSelection": "first",
@@ -63,15 +64,15 @@
     "**/pnpm-lock.yaml": true,
     "**/yarn.lock": true,
     "**/dist/**": true,
-    "**/out/**": true,
+    "**/out/**": true
   },
-  
+
   "javascript.preferences.quoteStyle": "single",
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "prompt",
 
-  "prettier.enable": false,
+  "prettier.enable": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
