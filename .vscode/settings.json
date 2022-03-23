@@ -50,9 +50,9 @@
 
   "git.autofetch": true,
   "git.confirmSync": false,
-  "git.enableSmartCommit": true, // -
+  "git.enableSmartCommit": true,
   "git.untrackedChanges": "separate",
-  "diffEditor.ignoreTrimWhitespace": false, // -
+  "diffEditor.ignoreTrimWhitespace": false,
 
   "search.exclude": {
     "**/.git": true,
