@@ -1,22 +1,28 @@
 {
   "recommendations": [
-    "ms-ceintl.vscode-language-pack-zh-hans",
+    "holazz.vsc-open-in-browser",
+    "holazz.vsc-reveal",
     "antfu.iconify",
     "antfu.icons-carbon",
+    "antfu.vite",
+    "antfu.unocss",
+    "johnsoncodehk.volar",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
     "file-icons.file-icons",
     "dbaeumer.vscode-eslint",
-    "smulyono.reveal",
+    "jock.svg",
     "shan.code-settings-sync",
-    "johnsoncodehk.volar",
     "k--kato.intellij-idea-keybindings",
-    "GitHub.copilot",
+    "gitHub.copilot",
     "usernamehw.errorlens",
     "streetsidesoftware.code-spell-checker",
+    "znck.grammarly",
+    "intellsmi.comment-translate",
     "eamodio.gitlens",
     "EditorConfig.EditorConfig",
     "GitHub.vscode-pull-request-github",
-    "WakaTime.vscode-wakatime"
+    "WakaTime.vscode-wakatime",
+    "amodio.tsl-problem-matcher"
   ]
 }

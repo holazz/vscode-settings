@@ -98,10 +98,16 @@
   "cSpell.language": "en,en-US",
 
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
-  "errorLens.excludeBySource": ["cSpell", "eslint"],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
 
   "iconify.annotations": true,
   "iconify.inplace": true,
+
+  "volar.autoCompleteRefs": false,
+  "volar.codeLens.pugTools": false,
+  "volar.codeLens.scriptSetupTools": true,
+  "volar.completion.preferredTagNameCase": "pascal",
+  "volar.takeOverMode.enabled": true,
 
   "githubPullRequests.fileListLayout": "tree",
 
