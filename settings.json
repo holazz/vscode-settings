@@ -9,7 +9,7 @@
   "editor.smoothScrolling": true,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.inlineSuggest.enabled": true, // -
+  "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
@@ -156,5 +156,7 @@
       "remote": false,
       "stash": true
     }
-  }
+  },
+
+  "sync.gist": "1062290c855d95becfcd500f97fc0c6c"
 }
