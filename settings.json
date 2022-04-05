@@ -2,7 +2,7 @@
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "on",
 
-  "editor.fontFamily": "Monaco",
+  "editor.fontFamily": "Monaco, Monaco for Powerline",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -42,7 +42,6 @@
   "extensions.autoUpdate": "onlyEnabledExtensions",
   "extensions.ignoreRecommendations": true,
 
-  "terminal.integrated.fontFamily": "Monaco",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontWeight": "300",
