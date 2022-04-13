@@ -98,7 +98,9 @@
     "jsonc",
     "json5"
   ],
-  // cSpell
+  // comment translate
+  "commentTranslate.targetLanguage": "zh-CN",
+  // code spell checker
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
   // errorLens
