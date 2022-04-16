@@ -3,7 +3,7 @@
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "on",
   // editor
-  "editor.fontFamily": "Monaco, Fira Code",
+  "editor.fontFamily": "Monaco, Fira Code, monospace",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.smoothScrolling": true,
