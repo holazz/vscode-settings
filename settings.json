@@ -61,11 +61,12 @@
     "**/.vscode": true,
     "**/.pnpm": true,
     "**/.yarn": true,
+    "**/node_modules": true,
+    "**/dist/**": true,
+    "**/out/**": true,
     "**/package-lock.json": true,
     "**/pnpm-lock.yaml": true,
-    "**/yarn.lock": true,
-    "**/dist/**": true,
-    "**/out/**": true
+    "**/yarn.lock": true
   },
   // javascript & typescript
   "javascript.preferences.quoteStyle": "single",
