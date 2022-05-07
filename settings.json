@@ -11,6 +11,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
+  "editor.bracketPairColorization.enabled": false,
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "editor.codeActionsOnSave": {
@@ -54,6 +55,7 @@
   "git.enableSmartCommit": true,
   "git.untrackedChanges": "separate",
   "diffEditor.ignoreTrimWhitespace": false,
+  "github.gitProtocol": "ssh",
   // search
   "search.exclude": {
     "**/.git": true,
