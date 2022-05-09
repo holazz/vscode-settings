@@ -32,8 +32,8 @@
   // explorer
   "explorer.confirmDelete": false,
   "explorer.autoReveal": false,
-  "explorer.experimental.fileNesting.enabled": true,
-  "explorer.experimental.fileNesting.expand": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
   // scm
   "scm.defaultViewMode": "tree",
   // files
