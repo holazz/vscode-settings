@@ -47,5 +47,9 @@
     "key": "alt+cmd+o",
     "command": "-workbench.action.gotoSymbol",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.showAllSymbols"
   }
 ]
