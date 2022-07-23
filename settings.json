@@ -82,7 +82,7 @@
   "svg.preview.background": "transparent",
   "svg.preview.backgroundSaveTo": "NoSave",
   // prettier
-  "prettier.enable": false,
+  "prettier.enable": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.printWidth": 120,
@@ -126,7 +126,6 @@
   "volar.codeLens.pugTools": false,
   "volar.codeLens.scriptSetupTools": true,
   "volar.completion.preferredTagNameCase": "pascal",
-  "volar.takeOverMode.enabled": true,
   // githubPullRequests
   "githubPullRequests.fileListLayout": "tree",
   // gitlens
