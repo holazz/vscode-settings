@@ -113,6 +113,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // eslint
   "eslint.codeAction.showDocumentation": {
@@ -154,6 +157,7 @@
   "volar.completion.preferredTagNameCase": "pascal",
 
   // githubPullRequests
+  "githubPullRequests.createOnPublishBranch": "never",
   "githubPullRequests.fileListLayout": "tree",
 
   // gitlens
