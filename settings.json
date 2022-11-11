@@ -22,6 +22,9 @@
     "source.organizeImports": false
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
 
   // workbench
   "workbench.iconTheme": "file-icons",
@@ -48,6 +51,9 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
 
   // terminal
   "terminal.integrated.cursorBlinking": true,
