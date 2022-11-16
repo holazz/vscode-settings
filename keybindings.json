@@ -51,5 +51,25 @@
   {
     "key": "cmd+o",
     "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "cmd+[",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "cmd+]",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
   }
 ]
