@@ -196,5 +196,8 @@
       "remote": false,
       "stash": true
     }
-  }
+  },
+
+  // draw.io
+  "hediet.vscode-drawio.theme": "sketch"
 }
