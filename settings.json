@@ -113,12 +113,13 @@
   "eslint.quiet": true,
   "eslint.validate": [
     "javascript",
-    "typescript",
     "javascriptreact",
+    "typescript",
     "typescriptreact",
     "vue",
     "html",
     "markdown",
+    "mdx",
     "json",
     "jsonc",
     "json5"
