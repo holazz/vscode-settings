@@ -200,5 +200,7 @@
   },
 
   // draw.io
-  "hediet.vscode-drawio.theme": "sketch"
+  "hediet.vscode-drawio.theme": "sketch",
+  // liveServer
+  "liveServer.settings.donotShowInfoMsg": true
 }
