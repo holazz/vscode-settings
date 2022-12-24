@@ -52,7 +52,7 @@
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "postcss"
   },
 
   // terminal
@@ -96,7 +96,6 @@
   "typescript.updateImportsOnFileMove.enabled": "prompt",
 
   // svg
-  "svg.preview.autoShow": true,
   "svg.preview.background": "transparent",
   "svg.preview.backgroundSaveTo": "NoSave",
 
