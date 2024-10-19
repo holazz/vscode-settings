@@ -3,13 +3,17 @@
   "window.newWindowDimensions": "maximized",
   "window.openFoldersInNewWindow": "on",
 
+  // security
+  "security.workspace.trust.untrustedFiles": "open",
+
   // editor
   "editor.fontFamily": "Monaco, Fira Code, monospace",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
   "editor.smoothScrolling": true,
   "editor.find.addExtraSpaceOnTop": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
   "editor.linkedEditing": true,
@@ -17,19 +21,20 @@
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.eslint": true,
-    "source.organizeImports": false
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.quickSuggestions": {
     "strings": true
   },
+  "editor.largeFileOptimizations": false,
 
   // workbench
+  "workbench.productIconTheme": "icons-carbon",
   "workbench.iconTheme": "file-icons",
   "workbench.fontAliasing": "antialiased",
-  "workbench.productIconTheme": "icons-carbon",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
@@ -42,6 +47,7 @@
   "explorer.autoReveal": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
+  "explorer.confirmPasteNative": false,
 
   // scm
   "scm.defaultViewMode": "tree",
@@ -53,6 +59,14 @@
   "files.simpleDialog.enable": true,
   "files.associations": {
     "*.css": "postcss"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true
   },
 
   // terminal
@@ -67,6 +81,7 @@
 
   // git
   "git.autofetch": true,
+  "git.autoStash": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.untrackedChanges": "separate",
@@ -124,33 +139,27 @@
     "json5"
   ],
 
-  // comment translate
+  // Comment Translate
   "commentTranslate.targetLanguage": "zh-CN",
 
-  // code spell checker
+  // Code Spell Checker
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
 
-  // errorLens
+  // Error Lens
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
 
-  // iconify
+  // Iconify
   "iconify.annotations": true,
   "iconify.inplace": true,
 
-  // volar
-  "volar.autoCompleteRefs": false,
-  "volar.codeLens.pugTools": false,
-  "volar.codeLens.scriptSetupTools": true,
-  "volar.completion.preferredTagNameCase": "pascal",
-
-  // githubPullRequests
+  // GitHub Pull Requests
   "githubPullRequests.pullBranch": "never",
   "githubPullRequests.createOnPublishBranch": "never",
   "githubPullRequests.fileListLayout": "tree",
 
-  // gitlens
+  // Gitlens
   "gitlens.codeLens.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
@@ -198,8 +207,19 @@
     }
   },
 
-  // draw.io
-  "hediet.vscode-drawio.theme": "sketch",
-  // liveServer
-  "liveServer.settings.donotShowInfoMsg": true
+  // GitHub Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "scminput": false
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+
+  // Live Server
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Solidity
+  "solidity.telemetry": false,
+
+  // Excel Viewer
+  "csv-preview.formatValues": "never"
 }
